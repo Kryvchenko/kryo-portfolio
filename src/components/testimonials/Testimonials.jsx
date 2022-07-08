@@ -19,22 +19,22 @@ const data = [
   {
     avatar: AVTR1,
     name: "Jane Nelson",
-    review: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, eum quos. Quidem corrupti earum excepturi, placeat maxime ullam ab asperiores neque molestias similique ipsum ipsa doloribus in sequi nostrum dolores."
+    review: "This developer was a LIFE SAVER! I had a very tight deadline (only a few hours) to get a site up for a client, and he did it in no time at all - even with my edits! I recommend him to anyone who needs a front end developer!! So easy to work with as well."
   },
   {
     avatar: AVTR2,
     name: "Egor Nesterenko",
-    review: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, eum quos. Quidem corrupti earum excepturi, placeat maxime ullam ab asperiores neque molestias similique ipsum ipsa doloribus in sequi nostrum dolores."
+    review: "I came to Oleksandr with a very speficic requirement which he was able to turn around and fix within a few hours. I was really impressed with the service, thank you so much for helping me."
   },
   {
     avatar: AVTR3,
     name: "Paul Decouto",
-    review: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, eum quos. Quidem corrupti earum excepturi, placeat maxime ullam ab asperiores neque molestias similique ipsum ipsa doloribus in sequi nostrum dolores."
+    review: "Great work. Professional. And reliable. Will use again. Looking forward to working on many more projects."
   },
   {
     avatar: AVTR4,
     name: "NGO Save Ukraine",
-    review: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, eum quos. Quidem corrupti earum excepturi, placeat maxime ullam ab asperiores neque molestias similique ipsum ipsa doloribus in sequi nostrum dolores."
+    review: "Incredible results. We are extremely lucky to have found Oleksandr. He is basically a member of our team because our workflows go through him and he customizes how he delivers the code to work perfectly with our team."
   },
 ]
 
