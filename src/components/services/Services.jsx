@@ -35,19 +35,19 @@ const Services = () => {
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Responsive web applications </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Search engine optimization</p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Automated system tests </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Scalable, secure, maintainable code </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Web hosting </p>
             </li>
           </ul>
         </article>
@@ -58,16 +58,16 @@ const Services = () => {
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Research</p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Photography and Video </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Text content creation </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Lorem ipsum dolor sit amet </p>
+            <p>Metrics and analytics support </p>
             </li>
           </ul>
         </article>
