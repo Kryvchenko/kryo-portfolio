@@ -4,12 +4,19 @@ import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const About = () => {
+  const { text } = useTypewriter({
+    words: ["bout Me"],
+    loop: 0,
+  });
+  
   return (
     <section id='about'>
       <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h2>A{text}
+                <Cursor /></h2>
 
       <div className="container about__container">
         <div className="about__me">

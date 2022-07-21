@@ -6,7 +6,7 @@ import AVTR3 from '../../assets/avatar3.jpeg'
 import AVTR4 from '../../assets/avatar4.jpeg'
 
 import { Pagination } from 'swiper';
-
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -39,10 +39,14 @@ const data = [
 ]
 
 const Testimonials = () => {
+  const { text } = useTypewriter({
+    words: ["estimonials"],
+    loop: 0,
+  });
   return (
     <section id='testimonials'>
       <h5>Review From Clients</h5>
-      <h2>Testimonials</h2>
+      <h2>T{text}<Cursor /></h2>
 
       <Swiper className="container testimonials__container"
       modules={[ Pagination]}

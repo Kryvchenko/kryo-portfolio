@@ -1,12 +1,17 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Services = () => {
+  const { text } = useTypewriter({
+    words: ["ervices"],
+    loop: 0,
+  });
   return (
     <section id='service'>
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h2>S{text}<Cursor /></h2>
 
       <div className="container services__container">
         <article className='service'>

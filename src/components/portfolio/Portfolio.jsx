@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 const data = [
@@ -30,10 +31,14 @@ const data = [
 ]
 
 const Portfolio = () => {
+  const { text } = useTypewriter({
+    words: ["ortfolio"],
+    loop: 0,
+  });
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>P{text}<Cursor /></h2>
 
       <div className="container portfolio__container">
        {

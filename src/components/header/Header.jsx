@@ -3,14 +3,19 @@ import CTA from './CTA'
 import ME from '../../assets/me.png'
 import './header.css'
 import HeaderSocials from './HeaderSocials'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Header = () => {
+  const { text } = useTypewriter({
+    words: ["ront-End Developer"],
+    loop: 0,
+  });
   return (
     <header>
       <div className="container header__container">
         <h5>Hello I`m</h5>
         <h1>Oleksandr Kryvchenko</h1>
-        <h5 className='text-light'>Front-End Developer</h5>
+        <h5 className='text-light'>F{text}<Cursor /></h5>
         <CTA /> 
         <HeaderSocials />
         <div className='me'>

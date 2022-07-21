@@ -1,12 +1,17 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Experience = () => {
+  const { text } = useTypewriter({
+    words: ["y Experience"],
+    loop: 0,
+  });
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h2>M{text}<Cursor /></h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
