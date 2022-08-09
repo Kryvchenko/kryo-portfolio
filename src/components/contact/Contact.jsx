@@ -63,7 +63,7 @@ const Contact = (props) => {
         </div>
         {/* END OF CONTACT OPTIONS */}
 
-        <form  action=""  onSubmit={sendEmail} >
+        <form  action="" onSubmit={sendEmail} >
           <input type="text" name="name" placeholder='Your name' required/>
           <input type="email" name="email" placeholder='Your email' required/>
           <textarea name='message' rows="7" placeholder='Your message' required></textarea>
