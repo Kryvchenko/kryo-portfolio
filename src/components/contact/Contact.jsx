@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useState } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
@@ -6,25 +6,33 @@ import {RiMessengerLine} from 'react-icons/ri'
 import emailjs from 'emailjs-com'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-const Contact = () => {
+const Result = () => {
+  return <p>Success! We will contact you soon!</p>;
+};
+
+
+const Contact = (props) => {
+  const [result, showResult] = useState(false);
+
   const { text } = useTypewriter({
     words: ["ontact Me"],
     loop: 0,
   });
 
-  const form = useRef();
+ 
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    e.target.reset()
 
-    emailjs.sendForm('service_sqfjfxr', 'template_68jgczu', form.current, '-t72MD0QZ9b-FbbB3')
+    emailjs.sendForm('service_sqfjfxr', 'template_68jgczu', e.target, '-t72MD0QZ9b-FbbB3')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
+      showResult(true);
   };
 
   return (
@@ -55,11 +63,12 @@ const Contact = () => {
         </div>
         {/* END OF CONTACT OPTIONS */}
 
-        <form ref={form}  onSubmit={sendEmail} >
+        <form  action=""  onSubmit={sendEmail} >
           <input type="text" name="name" placeholder='Your name' required/>
           <input type="email" name="email" placeholder='Your email' required/>
           <textarea name='message' rows="7" placeholder='Your message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
+          <div>{result ? <Result /> : null}</div>
         </form>
       </div>
     </section>
