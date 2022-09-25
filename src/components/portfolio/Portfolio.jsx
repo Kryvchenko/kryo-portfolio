@@ -4,6 +4,7 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/rabbit.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
@@ -35,6 +36,13 @@ const data = [
     title: "Personal portfolio",
     github: "https://github.com/Kryvchenko",
     demo: "https://lytovchenko.me/"
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Authentic bar",
+    github: "https://github.com/Kryvchenko",
+    demo: "https://crazyrabbit.es"
   },
 ]
 
