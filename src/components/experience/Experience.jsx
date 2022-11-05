@@ -57,6 +57,49 @@ const Experience = () => {
           </div>
         </div>
 
+        <div className="experience__frontend">
+          <h3>Testing Automation</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                {" "}
+                <h4>Webdriver I/O</h4>
+                <small className="text-light">PreIntermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Cypress</h4>
+                <small className="text-light">PreIntermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Postman</h4>
+                <small className="text-light">PreIntermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                {" "}
+                <h4>Jenkins</h4>
+                <small className="text-light">PreIntermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Mocha/Chai</h4>
+                <small className="text-light">PreIntermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">

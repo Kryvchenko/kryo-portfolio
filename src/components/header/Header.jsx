@@ -7,7 +7,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Header = () => {
   const { text } = useTypewriter({
-    words: ["ront-End Developer"],
+    words: ["Front-End Developer", "QA Automation Engineer"],
     loop: 0,
   });
   return (
@@ -15,11 +15,11 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I`m</h5>
         <h1>Oleksandr Kryvchenko</h1>
-        <h5 className='text-light'>F{text}<Cursor /></h5>
-        <CTA /> 
+        <h5 className='text-light'>{text}<Cursor /></h5>
+        <CTA />
         <HeaderSocials />
         <div className='me'>
-        <img src={ME} alt="me"/>
+          <img src={ME} alt="me" />
         </div>
         <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
