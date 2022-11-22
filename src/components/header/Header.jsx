@@ -7,7 +7,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Header = () => {
   const { text } = useTypewriter({
-    words: ["Front-End Developer", "QA Automation Engineer"],
+    words: ["QA Automation Engineer", "Front-End Developer"],
     loop: 0,
   });
   return (
