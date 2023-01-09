@@ -26,7 +26,7 @@ const Services = () => {
             <p>Writing test cases, scenarios </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>UI e2e testing </p>
+            <p>E2E testing </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
             <p>Defects reporting   </p>
