@@ -5,40 +5,72 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/rabbit.png'
+import IMGTest1 from '../../assets/TESTIMG1.png'
+import IMGTest2 from '../../assets/TESTIMG2.png'
+import IMGTest3 from '../../assets/TESTIMG3.png'
+import IMGTest4 from '../../assets/TESTIMG4.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 const data = [
   {
     id: 1,
+    image: IMGTest1,
+    title: "Google cloud calculator e2e testing",
+    github: "https://github.com/Kryvchenko/webdriver-io-google-cloud-e2e",
+    demo: "https://github.com/Kryvchenko/webdriver-io-google-cloud-e2e"
+  },
+  {
+    id: 2,
+    image: IMGTest2,
+    title: "Cypress API Testing with JSON server",
+    github: "https://github.com/Kryvchenko/cypress-api-testing",
+    demo: "https://github.com/Kryvchenko/cypress-api-testing"
+  },
+  {
+    id: 3,
+    image: IMGTest3,
+    title: "WebdriverIO e-commerce testing",
+    github: "https://github.com/Kryvchenko/webdriverIO-ecommerce-testing",
+    demo: "https://github.com/Kryvchenko/webdriverIO-ecommerce-testing"
+  },
+  {
+    id: 4,
+    image: IMGTest4,
+    title: "Spotify songs recommender",
+    github: "https://github.com/Kryvchenko/spotify-song-recommender-nodejs",
+    demo: "https://github.com/Kryvchenko/spotify-song-recommender-nodejs"
+  },
+  {
+    id: 5,
     image: IMG1,
     title: "Motorcycle shop",
     github: "https://github.com/Kryvchenko/motoshop",
     demo: "https://dynamic-sorbet-13ccb2.netlify.app"
   },
   {
-    id: 2,
+    id: 6,
     image: IMG2,
     title: "Design studio",
     github: "https://github.com/Kryvchenko/kryo",
     demo: "https://kryvchenko.github.io/kryo/"
   },
   {
-    id: 3,
+    id: 7,
     image: IMG3,
     title: "Volunteering organisation",
     github: "https://github.com/Kryvchenko/save-ukraine",
     demo: "https://saveukrainelife.com/"
   },
   {
-    id: 4,
+    id: 8,
     image: IMG4,
     title: "Personal portfolio",
     github: "https://github.com/Kryvchenko",
     demo: "https://lytovchenko.me/"
   },
   {
-    id: 5,
+    id: 9,
     image: IMG5,
     title: "Authentic bar",
     github: "https://github.com/Kryvchenko",
