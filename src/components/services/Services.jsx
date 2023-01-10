@@ -14,22 +14,42 @@ const Services = () => {
       <h2>S{text}<Cursor /></h2>
 
       <div className="container services__container">
-        <article className='service'>
+      <article className='service'>
           <div className='service__head'>
-            <h3>Quality Assurance</h3>
+            <h3>Test Automation</h3>
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon '/>
             <p>API testing </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Writing test cases, scenarios </p>
-            </li>
-            <li><BiCheck className='service__list-icon '/>
             <p>E2E testing </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Defects reporting   </p>
+            <p>Regression testing </p>
+            </li>
+            <li><BiCheck className='service__list-icon '/>
+            <p>Test Automation framework development </p>
+            </li>
+          </ul>
+        </article>
+        {/* Manual testing  */}
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Quality Assurance</h3>
+          </div>
+          <ul className='service__list'>
+            <li><BiCheck className='service__list-icon '/>
+            <p>Writing test cases, scenarios </p>
+            </li>
+            <li><BiCheck className='service__list-icon '/>
+            <p>Test data generation</p>
+            </li>
+            <li><BiCheck className='service__list-icon '/>
+            <p>Maintain the testing environment </p>
+            </li>
+            <li><BiCheck className='service__list-icon '/>
+            <p>Defects reporting </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
             <p>CI/CD </p>
@@ -49,7 +69,7 @@ const Services = () => {
             <p>Search engine optimization</p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Scalable, secure, maintainable code </p>
+            <p>Scalable, maintainable code </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
             <p>Web hosting </p>
@@ -57,26 +77,7 @@ const Services = () => {
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
-        <article className='service'>
-          <div className='service__head'>
-            <h3>UI/UX Design</h3>
-          </div>
-          <ul className='service__list'>
-            <li><BiCheck className='service__list-icon '/>
-            <p>Prototyping, wireframing, user flows, mockups </p>
-            </li>
-            <li><BiCheck className='service__list-icon '/>
-            <p>Visual design </p>
-            </li>
-            <li><BiCheck className='service__list-icon '/>
-            <p>User research and usability testing </p>
-            </li>
-            <li><BiCheck className='service__list-icon '/>
-            <p>Information architecture  </p>
-            </li>
-          </ul>
-        </article>
-        {/* END OF UI/UX  */}
+     
       </div>
     </section>
   )

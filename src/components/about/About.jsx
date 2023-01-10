@@ -43,7 +43,7 @@ const About = () => {
             </article>
 
           </div>
-          <p>I have almost a decade of customer service experience. I think outside the box to come up with solutions alone and alongside a team. Have a strong creative side, which helps me be thoughtful about design and ways to make my projects user-friendly.</p>
+          <p>Passionate test automation specialist with extensive web development skills, and practical experience in functional and non-functional testing competent in using evaluation tools and defect tracking systems. Possesses a good understanding of the Software Development and Software Testing Life Cycles and knowledge of different SDLC models. Presents the ability to effectively respond to the changes of dynamic work processes within Agile methodologies.</p>
           <a href='#contact' className='btn btn-primary'>Let`s Talk</a>
         </div>
       </div>
