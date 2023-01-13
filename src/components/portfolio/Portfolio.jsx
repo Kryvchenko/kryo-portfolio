@@ -9,10 +9,18 @@ import IMGTest1 from '../../assets/TESTIMG1.png'
 import IMGTest2 from '../../assets/TESTIMG2.png'
 import IMGTest3 from '../../assets/TESTIMG3.png'
 import IMGTest4 from '../../assets/TESTIMG4.png'
+import IMGTest5 from '../../assets/TESTIMG5.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 const data = [
+  {
+    id: 0,
+    image: IMGTest5,
+    title: "Data-driven testing of IMDb website with Cypress",
+    github: "https://github.com/Kryvchenko/imdb-task-cypress",
+    demo: "https://github.com/Kryvchenko/imdb-task-cypress"
+  },
   {
     id: 1,
     image: IMGTest1,
