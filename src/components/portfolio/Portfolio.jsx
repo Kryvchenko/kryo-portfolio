@@ -10,75 +10,83 @@ import IMGTest2 from '../../assets/TESTIMG2.png'
 import IMGTest3 from '../../assets/TESTIMG3.png'
 import IMGTest4 from '../../assets/TESTIMG4.png'
 import IMGTest5 from '../../assets/TESTIMG5.png'
+import IMGTest6 from '../../assets/TESTIMG6.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 const data = [
   {
     id: 0,
+    image: IMGTest6,
+    title: "Mobile Automation with Appium for iOS and Android apps",
+    github: "https://github.com/Kryvchenko/mobile-testing-webdriverio-appium",
+    demo: "https://github.com/Kryvchenko/mobile-testing-webdriverio-appium"
+  },
+  {
+    id: 1,
     image: IMGTest5,
     title: "Data-driven testing of IMDb website with Cypress",
     github: "https://github.com/Kryvchenko/imdb-task-cypress",
     demo: "https://github.com/Kryvchenko/imdb-task-cypress"
   },
   {
-    id: 1,
+    id: 2,
     image: IMGTest1,
     title: "Google cloud calculator e2e testing",
     github: "https://github.com/Kryvchenko/webdriver-io-google-cloud-e2e",
     demo: "https://github.com/Kryvchenko/webdriver-io-google-cloud-e2e"
   },
   {
-    id: 2,
+    id: 3,
     image: IMGTest2,
     title: "Cypress API Testing with JSON server",
     github: "https://github.com/Kryvchenko/cypress-api-testing",
     demo: "https://github.com/Kryvchenko/cypress-api-testing"
   },
   {
-    id: 3,
+    id: 4,
     image: IMGTest3,
     title: "WebdriverIO e-commerce testing",
     github: "https://github.com/Kryvchenko/webdriverIO-ecommerce-testing",
     demo: "https://github.com/Kryvchenko/webdriverIO-ecommerce-testing"
   },
   {
-    id: 4,
+    id: 5,
     image: IMGTest4,
     title: "Spotify songs recommender",
     github: "https://github.com/Kryvchenko/spotify-song-recommender-nodejs",
     demo: "https://github.com/Kryvchenko/spotify-song-recommender-nodejs"
   },
   {
-    id: 5,
+    id: 6,
     image: IMG1,
     title: "Motorcycle shop",
     github: "https://github.com/Kryvchenko/motoshop",
     demo: "https://dynamic-sorbet-13ccb2.netlify.app"
   },
   {
-    id: 6,
+    id: 7,
     image: IMG2,
     title: "Design studio",
     github: "https://github.com/Kryvchenko/kryo",
     demo: "https://kryvchenko.github.io/kryo/"
   },
   {
-    id: 7,
+    id: 8,
     image: IMG3,
     title: "Volunteering organisation",
     github: "https://github.com/Kryvchenko/save-ukraine",
     demo: "https://saveukrainelife.com/"
   },
   {
-    id: 8,
+    id: 9,
     image: IMG4,
     title: "Personal portfolio",
     github: "https://github.com/Kryvchenko",
     demo: "https://lytovchenko.me/"
   },
   {
-    id: 9,
+    id: 10,
     image: IMG5,
     title: "Authentic bar",
     github: "https://github.com/Kryvchenko",
