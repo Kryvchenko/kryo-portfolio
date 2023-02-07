@@ -18,7 +18,7 @@ const data = [
   {
     id: 0,
     image: IMGTest6,
-    title: "Mobile Automation with Appium for iOS and Android apps",
+    title: "Mobile Automation with Appium(iOS & Android)",
     github: "https://github.com/Kryvchenko/mobile-testing-webdriverio-appium",
     demo: "https://github.com/Kryvchenko/mobile-testing-webdriverio-appium"
   },
