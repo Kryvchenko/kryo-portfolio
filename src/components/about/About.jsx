@@ -29,12 +29,12 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>1+ Year</small>
+              <small>2+ Years</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>10+ Worldwide</small>
+              <small>15+ Worldwide</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
@@ -43,7 +43,7 @@ const About = () => {
             </article>
 
           </div>
-          <p>Passionate test automation specialist with extensive web development skills, and practical experience in functional and non-functional testing competent in using evaluation tools and defect tracking systems. Possesses a good understanding of the Software Development and Software Testing Life Cycles and knowledge of different SDLC models. Presents the ability to effectively respond to the changes of dynamic work processes within Agile methodologies.</p>
+          <p>Passionate automation specialist with extensive web development skills, and practical experience in functional and non-functional testing competent in using evaluation tools and defect tracking systems. Possesses a good understanding of the Software Development and Software Testing Life Cycles and knowledge of different SDLC models. Presents the ability to effectively respond to the changes of dynamic work processes within Agile methodologies.</p>
           <a href='#contact' className='btn btn-primary'>Let`s Talk</a>
         </div>
       </div>
