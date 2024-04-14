@@ -16,20 +16,20 @@ const Services = () => {
       <div className="container services__container">
       <article className='service'>
           <div className='service__head'>
-            <h3>Test Automation</h3>
+            <h3>Security</h3>
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon '/>
-            <p>API testing </p>
+            <p>IS Audit </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>E2E testing </p>
+            <p>Dependencies updates </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Regression testing </p>
+            <p>IAM </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Test Automation framework development </p>
+            <p>Security framework development </p>
             </li>
           </ul>
         </article>
@@ -40,19 +40,19 @@ const Services = () => {
           </div>
           <ul className='service__list'>
             <li><BiCheck className='service__list-icon '/>
-            <p>Writing test cases, scenarios </p>
+            <p>Test strategy creation</p>
             </li>
             <li><BiCheck className='service__list-icon '/>
             <p>Test data generation</p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Maintain the testing environment </p>
+            <p>Testing environment maintenance </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>Defects reporting </p>
+            <p>Defects identification </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
-            <p>CI/CD </p>
+            <p>Test Automation framework development </p>
             </li>
           </ul>
         </article>
@@ -67,9 +67,6 @@ const Services = () => {
             </li>
             <li><BiCheck className='service__list-icon '/>
             <p>Search engine optimization</p>
-            </li>
-            <li><BiCheck className='service__list-icon '/>
-            <p>Scalable, maintainable code </p>
             </li>
             <li><BiCheck className='service__list-icon '/>
             <p>Web hosting </p>
